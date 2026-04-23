@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "web-dev-server --node-resolve --open --watch",
+  "build": "tsc"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/delphano-dsgn/goit-advancedjs-hw-05.git"
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/delphano-dsgn/goit-advancedjs-hw-05#readme",
   "devDependencies": {
+    "@web/dev-server": "^0.4.6",
     "typescript": "^6.0.3"
   }
 }
